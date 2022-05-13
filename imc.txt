@@ -1,0 +1,13 @@
+function calculaIMC(nome, altura, peso){ 
+
+    let centimetro = (altura / 100)
+    let IMC = (peso / (centimetro * centimetro))
+    let aluno = {
+                 nome: nome,
+                 altura: altura,
+                 peso: peso,
+                 IMC: IMC
+        
+}
+    return aluno
+}
